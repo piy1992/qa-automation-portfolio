@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sauce_Suite">
+<parameter name="environment" value="development"/>
+    <test name="Sauce Test">
+        <parameter name="environment" value="development"/>
+        <classes>
+            <class name="com.selenium.buy.BuyApparelTest"/>
+        </classes>
+    </test>
+</suite>

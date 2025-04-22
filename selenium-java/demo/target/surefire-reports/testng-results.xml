@@ -2,16 +2,39 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-19T08:59:10 MDT" name="Surefire suite" finished-at="2025-04-19T08:59:10 MDT" duration-ms="30">
+  <suite started-at="2025-04-22T06:57:29 MDT" name="Sauce_Suite" finished-at="2025-04-22T06:57:30 MDT" duration-ms="1031">
     <groups>
     </groups>
-    <test started-at="2025-04-19T08:59:10 MDT" name="Surefire test" finished-at="2025-04-19T08:59:10 MDT" duration-ms="30">
-      <class name="com.selenium.AppTest">
-        <test-method signature="shouldAnswerWithTrue()" started-at="2025-04-19T08:59:10 MDT" name="shouldAnswerWithTrue" finished-at="2025-04-19T08:59:10 MDT" duration-ms="8" status="PASS">
+    <test started-at="2025-04-22T06:57:29 MDT" name="Sauce Test" finished-at="2025-04-22T06:57:30 MDT" duration-ms="1031">
+      <class name="com.selenium.buy.BuyApparelTest">
+        <test-method is-config="true" signature="BeforeSuiteSetup(java.lang.String)[pri:0, instance:com.selenium.buy.BuyApparelTest@644baf4a]" started-at="2025-04-22T06:57:24 MDT" name="BeforeSuiteSetup" finished-at="2025-04-22T06:57:29 MDT" duration-ms="5147" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[development]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- shouldAnswerWithTrue -->
-      </class> <!-- com.selenium.AppTest -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+        </test-method> <!-- BeforeSuiteSetup -->
+        <test-method is-config="true" signature="initializeClasses()[pri:0, instance:com.selenium.buy.BuyApparelTest@644baf4a]" started-at="2025-04-22T06:57:29 MDT" name="initializeClasses" finished-at="2025-04-22T06:57:30 MDT" duration-ms="540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeClasses -->
+        <test-method signature="testBrowserInitialization()[pri:0, instance:com.selenium.buy.BuyApparelTest@644baf4a]" started-at="2025-04-22T06:57:30 MDT" name="testBrowserInitialization" finished-at="2025-04-22T06:57:30 MDT" duration-ms="439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBrowserInitialization -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.selenium.buy.BuyApparelTest@644baf4a]" started-at="2025-04-22T06:57:30 MDT" name="afterMethod" finished-at="2025-04-22T06:57:30 MDT" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="teardown_method()[pri:0, instance:com.selenium.buy.BuyApparelTest@644baf4a]" started-at="2025-04-22T06:57:30 MDT" name="teardown_method" finished-at="2025-04-22T06:57:30 MDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown_method -->
+      </class> <!-- com.selenium.buy.BuyApparelTest -->
+    </test> <!-- Sauce Test -->
+  </suite> <!-- Sauce_Suite -->
 </testng-results>
