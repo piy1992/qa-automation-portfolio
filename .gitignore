@@ -1,0 +1,47 @@
+# Node.js dependencies
+node_modules/
+
+# Python dependencies
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.env
+env/
+
+# Java build files
+*.class
+*.jar
+*.war
+*.ear
+target/
+
+# Maven specific files
+.mvn/
+.settings/
+*.log
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Visual Studio Code
+.vscode/
+
+# Test reports
+reports/
+selenium-java/demo/target/surefire-reports/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Allure and Extent reports
+reports/allure/
+reports/extent/

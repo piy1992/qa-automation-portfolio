@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Define patterns to search for
+PATTERNS="password|api_key|secret|user|token"
+
+# Check staged files for sensitive information
+STAGED_FILES=$(git diff --cached --name-only --diff-filter=ACM)
+
+for FILE in $STAGED_FILES; do
+    if grep -E -i "$PATTERNS" "$FILE"; then
+        echo "Error: Sensitive information found in $FILE"
+        exit 1
+    fi
+done
+
+exit 0
