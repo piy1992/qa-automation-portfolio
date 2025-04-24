@@ -32,4 +32,8 @@ public class ConfigManager {
     public Boolean getConfigBoolProperBoolean(String key){
         return Boolean.parseBoolean(getConfigProperty(key));
     }
+
+    public int getConfigintProperties(String key){
+        return Integer.parseInt(getConfigProperty(key));
+    }
 }

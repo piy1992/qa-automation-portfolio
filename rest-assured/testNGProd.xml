@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rest Suite">
+    <parameter name="environment" value="development"></parameter>
+    <test name="List User Test">
+    <classes>
+        <class name = "com.selenium.buy.BuyApparelTest"/>
+    </classes>   
+    </test>
+</suite>
